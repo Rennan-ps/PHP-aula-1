@@ -13,7 +13,7 @@ class Database {
         $this->db = $db;
         $this->user = $user;
         $this->pass = $pass;
-        $this->port = $port; // Porta padrão é 3306, mas você pode especificar outra.
+        $this->port = $port; // Porta padrão é 3307, mas você pode especificar outra.
     }
 
     // Método para conectar ao banco de dados
