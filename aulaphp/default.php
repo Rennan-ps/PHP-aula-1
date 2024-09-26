@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <?php
         $host = 'localhost';
         $db = 'senai_aulaphp';
         $user = 'Rennan';
         $pass = '123456';
         $port = 3307;
-        require_once 'C:\xampp\htdocs\aulaphp\connection.php';
+        require_once 'php/connection.php';
         $database = new Database($host,$db,$user,$pass,$port);
         $database -> connect();
         $pdo = $database->getConnection();
